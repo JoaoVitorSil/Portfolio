@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="image/png" sizes="16x16" rel="icon" href="./favicon.png">
+    <title>Portfólio</title>
+
+    <link rel="stylesheet" href = "reset.css">
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header >
+        <nav>
+            <div class="navlogo"">
+                <a href="#about">
+                    <img src="./assets/logo.png" alt="">
+                    <h1>Dev</h1>
+                </a>
+               
+            </div>
+            <div class="nav">
+                <a class="about active" href="#about">Início</a>
+                <a class="projects" href="#projects">Projetos</a>
+                <a class="skills" href="#skills">Habilidades</a>
+                <a class="contact" href="#contact">Contato</a>
+            </div>
+        </nav>
+    </header>
+        <section id="about">
+            <div class="about-me">
+                <h1>Olá,
+                sou o João Vitor</h1>
+                <h2>Desenvolvedor Web </h2>
+                <p>Eu moro em Natal, RN, e sou estudante 
+                    do Bacharelado em Ciência e Tecnologia da UFRN,
+                    e tenho conhecimentos sobre Desenvolvimento Wed Front-end 
+                    e Mobile. Sendo assim, procuro uma oportunidade para atuar
+                    na área e colocar meus conhecimentos em prática.
+                </p>
+                <a 
+                    href="https://drive.google.com/file/d/151FKSe44Q8o_qfIBn63p2DDiRImDvBev/view?usp=sharing"
+                    target="_blanket">
+                        Baixar Currículo
+                </a>
+            </div>
+            <div class="aboutimg">
+                <img src="./assets/home-img.svg" alt="" class="img-fluid">
+            </div>
+
+        </section >
+        <section id="projects">
+
+            <div class="projects-title">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projects-container">
+                <div class="card">
+                  <a href="https://netflix-clone-83feb.web.app" target="_blanket">
+                    <div style="background-image: url('./assets/netflix-clone.png');"></div>
+                    <h3>Netflix Clone</h3>
+                    <p>
+                        Clone do site Netflix utilizando React.
+                    </p>
+                  </a>
+                </div>
+        
+                <div class="card">
+                  <a >
+                  <div style="background-image: url('./assets/construcao.png');"></div>
+                  <h3>Pokedéx</h3>
+                  <p>
+                    Ainda estou desenvolvendo. 
+                  </p>
+                  </a>
+                </div>
+        
+                <div class="card">
+                  <a >
+                  <div style="background-image: url('./assets/construcao.png');"></div>
+                  <h3>Indefinido</h3>
+                  <p>
+                    Pensando.
+                  </p>
+                  </a>
+                </div>
+                
+                <div class="card">
+                    <a >
+                    <div style="background-image: url('./assets/construcao.png');"></div>
+                    <h3>Indefinido</h3>
+                    <p>
+                      Pensando.
+                    </p>
+                    </a>
+                  </div>
+               
+              </div>
+
+        </section>
+        <section id="skills">
+            <div class="img-skills">
+                <img src="./assets/img-skills.png">
+            </div>
+            <div class="skills-icons">
+                <img src="./assets/js.png">
+                <img src="./assets/html.png">
+                <img src="./assets/css.png">
+                <img src="./assets/react.png">
+                <img src="./assets/git.png">
+                <img src="./assets/github.png">
+                <img src="./assets/python.png">
+                <img src="./assets/node-js.png">
+                <img src="./assets/c-.png">
+            </div>
+        </section>
+        <section id="contact">
+            <form 
+            onsubmit="alert('Mensagem enviada')"
+            action="https://api.staticforms.xyz/submit"
+            method="post"
+            class="form"
+            >
+                <input type="hidden" name="accessKey" value="3e6c9f0f-6633-4c9b-8a68-5557fa159e1d">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+                <input type="text" name="honeypot" style="display: none;"> 
+
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required />
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required />
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    <footer>
+            <a href="https://www.facebook.com/profile.php?id=100004382556207" target="_blanket">
+                <img src="./assets/facebook.png" style="background-color:white; border-radius: 10px;"/>
+            </a>
+            
+            <a href="https://www.instagram.com/joaovitor1400/" target="_blanket">
+                <img src="./assets/instagram.png" style="background-color:white; border-radius: 10px;"/>
+            </a>
+           
+            <a href="https://github.com/JoaoVitorSil" target="_blanket">
+                <img src="./assets/github.png" style="background-color:white; border-radius: 10px;"/>
+            </a>
+           
+            <a href="https://www.linkedin.com/in/joão-vitor-conceição-silva-9b343b236/" target="_blanket">
+                <img src="./assets/linkedin.png" style="background-color:white; border-radius: 10px;"/>
+            </a>
+            
+       
+            <p>Copyright ©2020 All rights reserved </p>
+       
+    </footer>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
