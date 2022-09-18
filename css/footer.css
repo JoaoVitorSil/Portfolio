@@ -1,0 +1,30 @@
+footer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 31px;  
+    background-color:#050713;
+  }
+  
+  footer p {
+    width: 100%;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  footer a:hover,
+  footer a:focus{
+    scale: 1.1;
+    transition: 0.2s
+  }
+  footer a img {
+    background-color:white;
+    border-radius: 10px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  

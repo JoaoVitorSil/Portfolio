@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  
+}
+
+section{
+  background-color: #1836e0;
+  width: 100%;
+}
+
+
