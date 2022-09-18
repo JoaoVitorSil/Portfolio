@@ -111,8 +111,7 @@ nav.scroll {
     justify-content: space-between;
     height: 70px;
   }
-  .navlogo {
-  }
+  
   .nav {
     position: absolute;
     top: calc(100vh - (100vh - 70px));
