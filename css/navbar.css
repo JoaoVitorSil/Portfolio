@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 nav {
   display: flex;
   position: fixed;
