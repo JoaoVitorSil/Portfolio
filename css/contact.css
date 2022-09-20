@@ -1,16 +1,16 @@
 #contact{
-    height: 80%;
+    height: 70vh;
     background-color:#1836e0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   
   .form {
-    width: 100%;
-    max-width: 32rem;
-    font-size: 1.125rem;
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    font-size: calc(0.8vh + 0.8vw);
     align-items: center;
   }
   
@@ -18,27 +18,27 @@
   .form input,
   .form textarea{
     display: block;
-    width: 100%;
+    width: 30vw
   }
   
   .form label {
     color: #fff;
-    line-height: 1;
-    margin-bottom: 0.5rem;
+    line-height: 4vh;
+    margin-bottom: 0.5vh;
   }
   
   .form input,
   .form textarea {
     font: inherit;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
+    padding: calc(0.5vh + 0.5vw);
+    margin-bottom: 0.5vh;
     border: 1px solid transparent;
     border-radius: 8px;
     transition: border-color, box-shadow 0.2s;
   }
   
   .form textarea {
-    min-height: 5rem;
+    min-height: 15vh;
     resize: vertical;
   }
   
@@ -53,7 +53,7 @@
   
   .form button {
     display: block;
-    padding: 1rem;
+    padding: calc(1vh + 1vw);
     background: #0072c4;
     color: #fff;
     font: inherit;
@@ -62,11 +62,21 @@
     border-radius: 8px;
     cursor: pointer;
     transition: 0.2s;
-    margin-bottom: 20px;
+    margin-top: 2vh;
   }
   
   .form button:hover,
   .form button:focus {
     outline: none;
     background: #09d;
+  }
+  .contact-img{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-img img{
+    width: calc(25vh + 25vw);
+    height: calc(20vh + 20vw);
   }
