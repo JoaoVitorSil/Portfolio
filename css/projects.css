@@ -18,7 +18,7 @@
   border-radius: 10px;
   font-size: calc(2vh + 2vw);
   padding: calc(1vh + 1vw);
-  margin-top: calc(17vh + 17vw);
+  margin-top: calc(15vh + 15vw);
 }
 
 
@@ -26,7 +26,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: calc(15vh + 15vw);
+  margin-top: calc(10vh + 10vw);
 }
 
 .card {
@@ -53,12 +53,12 @@
 }
 
 .projects-container div h3 {
-  font-size: calc(1vh + 1vw);
+  font-size: calc(1.3vh + 1.3vw);
   margin: 1.5vh 0 1vw 23px;
 }
 
 .projects-container div p {
-  font-size: calc(0.7vh + 0.7vw);
+  font-size: calc(0.9vh + 0.9vw);
   margin-left: 23px;
 
 }
@@ -91,7 +91,7 @@
     border-radius: 8px;
   }
   .projects-container div div {
-    height: calc(20vh + 8vw);
+    height: calc(20vh + 15vw);
   }
 
 }

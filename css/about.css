@@ -85,7 +85,7 @@
   }
   .about-me p {
     align-self: center;
-    line-height: calc(3vh + 1vw);
+    line-height: calc(3vh + 2vw);
     margin-top: 5vh;
     padding: 2vw;
     width: 80vw;

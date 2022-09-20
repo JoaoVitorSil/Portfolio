@@ -69,23 +69,20 @@ nav.scroll {
 }
 @media (min-width: 1024px) {
   nav {
-    height: calc(5vh + 50px);
+    height: calc(5vh + 5vw);
   }
 }
 
 @media (min-width: 1441px) {
-  nav {
-    height: calc(10vh + 100px);
-  }
   .navlogo img {
-    height: calc(10vh + 40px);
+    height: calc(4vh + 4vw);
   }
   .navlogo h1 {
-    font-size: calc(10vh + 10px);
+    font-size: calc(3vh + 3vw);
   }
   .nav a {
-    font-size: calc(2vh + 2px);
-    padding: 30px;
+    font-size: calc(1vh + 1vw);
+    padding: calc(0.8vh + 0.8vw);
   }
 }
 
