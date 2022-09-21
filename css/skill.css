@@ -13,8 +13,7 @@
 }
 
 .img-skills img {
-  height: calc(20vw + 20vh);
-  width: calc(20vw + 20vh);
+  width: 80%;
 }
 .skills-icons {
   width: 70%;
@@ -39,9 +38,8 @@
     align-items: center;
     justify-content: center;
   }
-  .img-skills img {
-    height: calc(30vw + 30vh);
-    width: calc(30vw + 30vh);
+  .img-skills {
+    width: 100vw;
   }
   .skills-icons {
     width: 50vw;
@@ -54,10 +52,6 @@
 }
 
 @media (max-width: 345px),(min-height: 1010px) {
-  .img-skills img {
-    height: calc(25vw + 25vh);
-    width: calc(25vw + 25vh);
-  }
   .skills-icons {
     width: 60vw;
   }
